@@ -1,0 +1,21 @@
+{
+    "name": "dotnet-clamav",
+    "version": "1.0.0",
+    "description": "[![logo](./logo.jpg)](https://inforit.nl)",
+    "main": "Dockerfile",
+    "scripts": {
+        "build": "docker build -t inforitnl/dotnet-clamav .",
+        "tag": "docker tag inforitnl/dotnet-clamav",
+        "push": "docker push inforitnl/dotnet-clamav"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Inforitnl/dotnet-clamav.git"
+    },
+    "author": "Rick van Lieshout <info@rickvanlieshout.com> (http://rickvanlieshout.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Inforitnl/dotnet-clamav/issues"
+    },
+    "homepage": "https://github.com/Inforitnl/dotnet-clamav#readme"
+}
