@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
 # copy local files to container
 COPY entrypoint.sh /entrypoint.sh
@@ -8,7 +8,7 @@ COPY ./supervisord.conf /etc/supervisor/conf.d/supervisor.conf
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
     clamav clamav-daemon supervisor wget net-tools \
-    && apt-get clean \ 
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # update Permission

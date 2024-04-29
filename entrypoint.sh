@@ -28,6 +28,16 @@ while [ "$(supervisorctl status | grep -c "STARTING")" -gt 0 ]; do
 done
 echo "Supervisor has started all apps"
 
+# Check if Api.dll exists
+if [ ! -f "/app/Api.dll" ]; then
+    echo "Error: Api.dll not found in /app directory"
+    exit 1
+fi
+
+# Echo out all files in the /app directory
+echo "Files in /app directory:"
+ls /app
+
 # start dotnet app
 cd /app
 dotnet "${DLL_PATH:-Api.dll}"
