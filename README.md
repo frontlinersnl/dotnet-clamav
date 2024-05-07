@@ -1,6 +1,6 @@
-# dotnet-clamav
+[![logo](./logo.png)](https://frontliners.nl)
 
-[![logo](./logo.jpg)](https://inforit.nl)
+# dotnet-clamav
 
 Docker image to run dotnet software with clamav installed and running
 
@@ -10,26 +10,26 @@ Docker image to run dotnet software with clamav installed and running
 2. build local version:
 
     ```sh
-    docker build -t frontlinersnl/dotnet-clamav .
+    docker build -t frontliners/dotnet-clamav .
     ```
 
 3. push new version to dockerhub:
 
     ```sh
-    docker push frontlinersnl/dotnet-clamav
+    docker push frontliners/dotnet-clamav
     ```
 
 4. tag and push again (optional but recommended):
 
     ```sh
-    docker tag frontlinersnl/dotnet-clamav frontlinersnl/dotnet-clamav:2
-    docker push frontlinersnl/dotnet-clamav:2
+    docker tag frontliners/dotnet-clamav frontliners/dotnet-clamav:2
+    docker push frontliners/dotnet-clamav:2
     ```
 
 ## Usage
 
 ```sh
-FROM frontlinersnl/dotnet-clamav
+FROM frontliners/dotnet-clamav
 ```
 
 ## scripts

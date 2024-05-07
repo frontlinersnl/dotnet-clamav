@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0]
 
 - Updated Dockerfile to use `aspnet:8.0`
-- Replaced `inforitnl` with `frontlinersnl`
+- Replaced `inforitnl` with `frontliners`
 - Replaced inforit logo with frontliners logo
 - Added some extra logs to check the clam version
 

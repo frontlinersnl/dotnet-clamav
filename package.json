@@ -1,21 +1,21 @@
 {
-    "name": "dotnet-clamav",
-    "version": "2.0.0",
-    "description": "[![logo](./logo.png)](https://frontliners.nl)",
-    "main": "Dockerfile",
-    "scripts": {
-        "build": "docker build -t frontlinersnl/dotnet-clamav .",
-        "tag": "docker tag frontlinersnl/dotnet-clamav",
-        "push": "docker push frontlinersnl/dotnet-clamav"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/frontlinersnl/dotnet-clamav.git"
-    },
-    "author": "Rick van Lieshout <info@rickvanlieshout.com> (http://rickvanlieshout.com)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/frontlinersnl/dotnet-clamav/issues"
-    },
-    "homepage": "https://github.com/frontlinersnl/dotnet-clamav#readme"
+  "name": "dotnet-clamav",
+  "version": "2.0.0",
+  "description": "[![logo](./logo.png)](https://frontliners.nl)",
+  "main": "Dockerfile",
+  "scripts": {
+    "build": "docker build -t frontliners/dotnet-clamav .",
+    "tag": "docker tag frontliners/dotnet-clamav",
+    "push": "docker push frontliners/dotnet-clamav"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontlinersnl/dotnet-clamav.git"
+  },
+  "author": "Rick van Lieshout <info@rickvanlieshout.com> (http://rickvanlieshout.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontlinersnl/dotnet-clamav/issues"
+  },
+  "homepage": "https://github.com/frontlinersnl/dotnet-clamav#readme"
 }
