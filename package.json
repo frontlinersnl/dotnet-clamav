@@ -1,7 +1,7 @@
 {
     "name": "dotnet-clamav",
     "version": "2.0.0",
-    "description": "[![logo](./logo.jpg)](https://inforit.nl)",
+    "description": "[![logo](./logo.png)](https://frontliners.nl)",
     "main": "Dockerfile",
     "scripts": {
         "build": "docker build -t frontlinersnl/dotnet-clamav .",
